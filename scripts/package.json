@@ -1,0 +1,10 @@
+{
+  "name": "retail-sales-analyst-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Analyzer for retail sales Excel/CSV exports (used by the retail-sales-analyst skill)",
+  "main": "analyze.mjs",
+  "dependencies": {
+    "xlsx": "0.18.5"
+  }
+}
