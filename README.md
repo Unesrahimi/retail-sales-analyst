@@ -1,6 +1,6 @@
 # Retail Sales Analyst: a Claude skill
 
-**English** · [فارسی](#فارسی)
+**English** · [فارسی](#فارسی) · [Live demo page](https://claude.ai/artifact/LFUVAZXXHS2BKxYag2cgst)
 
 A [Claude](https://claude.ai) skill that turns a shop's sales export (Excel or CSV) into a diagnosis and a marketing plan. It works for Iranian businesses (Persian, Shamsi dates, Toman/Rial, SMS) and international ones (English, Gregorian dates, EUR/USD/CZK, email/SMS under GDPR).
 
@@ -22,7 +22,7 @@ It reads Shopify, Square, WooCommerce, Lightspeed, Iranian accounting exports (S
 **Claude Code** (needs [Node.js](https://nodejs.org)):
 
 ```bash
-npx skills add <github-user>/retail-sales-analyst -g
+npx skills add Unesrahimi/retail-sales-analyst -g
 cd ~/.claude/skills/retail-sales-analyst/scripts && npm install
 ```
 
@@ -76,3 +76,7 @@ Everything runs locally. Customer names, phones and emails stay in the output fi
 **استفاده:** فایل فروش را بدهید و ساده بپرسید، مثلاً «چرا فروشمون کم شده؟» یا «برای مشتری‌های VIP کمپین بده».
 
 اطلاعات مشتری‌ها روی کامپیوتر خودتان می‌ماند و جایی ارسال نمی‌شود.
+
+## License
+
+MIT © Unes Rahimi
